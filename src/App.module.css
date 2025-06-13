@@ -1,0 +1,36 @@
+
+body {
+  background: linear-gradient(135deg, #d0f5ce, #8fd694, #4b8e60);
+  background-size: 400% 400%;
+  animation: greenMagic 20s ease infinite;
+}
+
+@keyframes greenMagic {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffffcc;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
+  }
